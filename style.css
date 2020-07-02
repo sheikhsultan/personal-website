@@ -6,12 +6,16 @@ body{
 h1{
     font-size: 60px;
     color: rgb(153, 3, 173);
+   
 }
 h2{
     font-size: 40px;
 }
-p{
 
+
+h4{
+    height: 10px;
+    font-weight: 700;
 }
 img{
     width: 100%;
@@ -28,9 +32,10 @@ section{
 }
 .anchor-button{
     text-decoration: none;
+    
     color: white ;
     padding: 7px 30px;
-    background-image: linear-gradient(255deg,#d47304, rgb(230, 170, 32), tomato );
+    background-image: linear-gradient(45deg,#ec529a, #ed4b6e);
     border-radius: 5px;
     font-weight: 700;
 }
@@ -38,6 +43,7 @@ p{
     text-align: justify;
     font-size: 14px;
     font-weight: 500;
+    color:dimgray;
 }
 
             /* <!-- top section --> */
@@ -79,7 +85,7 @@ p{
     background-repeat: no-repeat;
     background-size: 1400px 600px;
     height: 550px;
-    border: 1px solid red;
+    
 }
 #work-padding{
     padding-left: 10%;
@@ -98,6 +104,103 @@ p{
 .footer-background{
     background-image: url("images/footer-bg.png");
     background-size: cover;
+    background-repeat: no-repeat;
+    
+    height: 650px;
+}
+.footer-section{
+    text-align: center;
+}
+.center{
+    text-align: center;
+}
+.w-c-a-s{
+    padding-top: 2% ;
+}    
+#jhankar{
+    padding-top: 1%;
+}
+#last-text{
+    padding-top: 2%;
+    padding-left: 35%;
+    padding-right: 35%;
+    font-weight: 600;
+}
+.msg-section{
+    background-image: linear-gradient(45deg,rgb(236, 82, 154), rgb(237, 75, 110));
+    text-decoration: none;
+	color: white;
+	text-align: center;
+	padding: 15px 150px 45px 150px;
+	border-radius: 10px;
+    display: inline-block;
+    margin-bottom: 80px;
+    margin-top: 50px;
+
+}
+            /* footer area end */
+
+            /* social links */
+
+.social-link{
+    float: left;
+    height: 100px;
+    width: 100%;
+    display:block;
+    text-align: center;
+    margin: auto;
+    font-size: 25px;   
 }
 
-    
+.social-link a{
+    height: 40px;
+    width: 40px;
+    margin: 0 10px;
+    background-color:rgb(236, 82, 154);
+    border-radius: 5px;
+    display: inline-block;
+    border: 1px solid rgb(0, 225, 255);
+    line-height: 32px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.social-link a:hover{
+    background-color: transparent;
+}
+
+.social-link a .fa{
+    color: #fff;
+    font-size: 18px;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+} 
+
+.social-link a:hover .fa-facebook{
+    color: #4C6EF5;
+}
+
+.social-link a:hover .fa-twitter{
+    color: #4babf7;
+}
+
+.social-link a:hover .fa-whatsapp{
+    color: #82C91E;
+}
+
+.social-link a:hover .fa-linkedin{
+    color: #0077B7;
+}
+
+.social-link a:hover .fa-instagram{
+    color: #DE2D7D;
+}
+
+
+footer p{
+    margin: 30px 0;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+}
+                                       /* THE END */
